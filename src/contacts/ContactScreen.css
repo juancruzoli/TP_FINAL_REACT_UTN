@@ -1,0 +1,135 @@
+.contact-screen {
+    border: 0;
+    background-color: #202020;
+    height: 950px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    margin: auto;
+}
+
+.contact-title-text {
+    color: #25d3d3;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 58px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        
+}
+
+.contact-subtitle-text {
+    color: #ffffff;
+    border-bottom: 2px solid #25d3d3;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    }
+
+    @media (min-width: 320px) {
+    .contact-screen {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        padding: 20px;
+    }
+    
+    .contact-title-text {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    
+    .contact-subtitle-text {
+        font-size: 0.9rem;
+        width: 90%;
+    }
+    }
+
+    @media (min-width: 480px) {
+    .contact-screen {
+        width: 100;
+        max-width: 600px;
+        height: auto;
+        padding: 30px;
+    }
+    
+    .contact-title-text {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+    }
+    
+    .contact-subtitle-text {
+        font-size: 1.1rem;
+        width: 80%;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .contact-screen {
+        padding: 40px;
+    }
+    
+    .contact-title-text {
+        font-size: 3.5rem;
+        margin-bottom: 30px;
+    }
+    
+    .contact-subtitle-text {
+        font-size: 1.3rem;
+    }
+    }
+
+    @media (min-width: 1024px) {
+    .contact-screen {
+        width: 700px;
+        padding: 50px;
+    }
+    
+    .contact-title-text {
+        font-size: 4.5rem;
+        margin-bottom: 35px;
+    }
+    
+    .contact-subtitle-text {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+    }
+
+    @media (min-width: 1440px) {
+    .contact-screen {
+        width: 800px;
+        padding: 60px;
+    }
+    
+    .contact-title-text {
+        font-size: 5rem;
+        margin-bottom: 40px;
+    }
+    
+    .contact-subtitle-text {
+        font-size: 1.8rem;
+        border-bottom-width: 3px;
+    }
+    }
+
+    @media (min-width: 2000px) {
+    .contact-screen {
+        width: 1000px;
+        padding: 80px;
+    }
+    
+    .contact-title-text {
+        font-size: 6.5rem;
+        margin-bottom: 50px;
+        text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    
+    .contact-subtitle-text {
+        font-size: 2.2rem;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        border-bottom-width: 4px;
+    }
+    }

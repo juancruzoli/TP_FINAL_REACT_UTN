@@ -1,0 +1,69 @@
+    :root {
+    --dark-bg: #0b141a;      
+    --header: #202c33;       
+    --green: #00a884;        
+    --text: #e9edef;         
+    --time: #8696a0;        
+    }
+
+    .messages-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    padding: 10px;
+    background-color: #0b141a; 
+}
+
+    .message {
+    max-width: 60%;
+    padding: 8px 12px;
+    border-radius: 7.5px;
+    position: relative;
+    word-break: break-word;
+    }
+
+    .other-message {
+    align-self: flex-start;
+    background-color: #202c33;
+    color: #e9edef;
+    border-top-left-radius: 0;
+    }
+
+    .my-message {
+    align-self: flex-end;
+    background-color: #005c4b;
+    color: white;
+    border-top-right-radius: 0;
+    margin-left: auto; 
+    }
+
+    .message-text {
+    margin: 0;
+    font-size: 14px;
+    }
+
+    .message-time {
+    display: inline-block;
+    font-size: 11px;
+    color: var(--time);
+    margin-left: 8px;
+    opacity: 0.8;
+    }
+
+    .delete-button {
+    background: none;
+    border: none;
+    color: var(--time);
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 12px;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+    }
+
+    .delete-button:hover {
+    opacity: 1;
+    }
+
+
+

@@ -1,0 +1,48 @@
+
+    :root {
+    --dark-gray: #2d3436;
+    --darker-gray: #111b21;
+    --blue-accent: #00a884;
+    --text-white: #e9edef;
+    --input-gray: #2a3942;
+    }
+
+
+    .new-message-form {
+    display: flex;
+    padding: 10px 16px;
+    background-color: var(--darker-gray);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    gap: 10px;
+    }
+
+
+.new-message-input {
+    flex: 1;
+    background-color: var(--input-gray);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: var(--text-white);
+    font-size: 14px;
+    outline: none;
+
+}
+
+    .new-message-input::placeholder {
+    color: var(--text-secondary);
+    opacity: 0.8;
+    }
+
+
+.new-message-button {
+    background-color: var(--blue-accent);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0 16px; 
+    cursor: pointer;
+}
+    .new-message-button:hover {
+    background-color: #008069; 
+    }
