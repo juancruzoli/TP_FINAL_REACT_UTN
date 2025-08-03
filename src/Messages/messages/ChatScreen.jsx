@@ -37,7 +37,7 @@ const ChatScreen = () => {
   return (
     <div className="chat-screen">
       <div className="chat-header">
-        <h2>{contact_selected.name}</h2>
+        <h2>{contact_selected.emisor}</h2>
         <p>Última conexión: hoy</p>
       </div>
       <MessagesList messages={messages} deleteMessageById={deleteMessageById} />
